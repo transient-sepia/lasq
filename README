@@ -1,0 +1,12 @@
+        Latest Sequence - get latest log sequence for a database.
+
+        lasq.sh [-h] -s <ORACLE_SID>
+
+        -h - print this message
+        -s - database name
+
+        Example:
+
+        - get latest sequence for database orcl:
+
+          lasq.sh -s orcl
